@@ -1,0 +1,26 @@
+Sampling Method,Classifier,Accuracy
+Random Under-Sampling,LogReg,0.25
+Random Under-Sampling,RandForest,0.25
+Random Under-Sampling,DecTree,0.75
+Random Under-Sampling,NaiveBayes,0.25
+Random Under-Sampling,SVM,0.0
+Random Over-Sampling,LogReg,0.9183006535947712
+Random Over-Sampling,RandForest,1.0
+Random Over-Sampling,DecTree,0.9934640522875817
+Random Over-Sampling,NaiveBayes,0.7581699346405228
+Random Over-Sampling,SVM,0.6699346405228758
+SMOTE,LogReg,0.9117647058823529
+SMOTE,RandForest,0.9934640522875817
+SMOTE,DecTree,0.9836601307189542
+SMOTE,NaiveBayes,0.8398692810457516
+SMOTE,SVM,0.6862745098039216
+SMOTE + Tomek Links,LogReg,0.9228187919463087
+SMOTE + Tomek Links,RandForest,0.9966442953020134
+SMOTE + Tomek Links,DecTree,0.9832214765100671
+SMOTE + Tomek Links,NaiveBayes,0.8758389261744967
+SMOTE + Tomek Links,SVM,0.674496644295302
+NearMiss,LogReg,0.0
+NearMiss,RandForest,0.0
+NearMiss,DecTree,0.0
+NearMiss,NaiveBayes,0.75
+NearMiss,SVM,0.0
